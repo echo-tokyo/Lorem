@@ -120,11 +120,12 @@ a {
     background: url(../images/bgB2.png) no-repeat center;
 }
 .block2{
-    margin-top: 200px;
+    background: url(../images/bgB2.png) no-repeat center;
     margin-left: 210px;
     margin-right: 210px;
 }
 .title{
+    margin-top: 200px;
     margin-bottom: 50px;
     display: flex;
     align-items: center;
@@ -229,3 +230,43 @@ a {
     background: #00E0FF;
 }
 /* block 2 end */
+
+/* block 3 */
+.block3{
+    margin-top: 300px;
+    min-height: 100%;
+    margin-left: 350px;
+    margin-right: 350px;
+}
+.block3__items{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 100px;
+}
+.block3__title{
+    color: rgb(255, 255, 255);
+    text-shadow: 6px 0px 4px rgba(0, 255, 255, 0.15);
+    font-family: Inria Serif;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: normal;
+}
+.block3__title span{
+    color: #0FF;
+}
+.block3__subtitle{
+    color: #787878;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.splide__slide{
+    text-align: center;
+}
+.splide__slide img{
+    min-height: 100%;
+}
+/* block 3 end */
