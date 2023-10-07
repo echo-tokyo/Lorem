@@ -341,3 +341,28 @@ a {
     padding-top: 20px;
 }
 /* block 5 end */
+
+/* footer */
+.footer__container{
+    background-color: #070707;
+    height: 220px;
+}
+.footer{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    margin-left: 210px;
+    margin-right: 210px;
+}
+.footer__items{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
+.footer__socity{
+    display: flex;
+    gap: 50px;
+}
+
+/* footer end */
