@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Inria+Serif:wght@700&family=Inter:wght@400;700&display=swap');
+
+body{
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    background-color: black;
+    color: white;
+}
+a {
+    text-decoration:none;
+    color: white;
+}
+::-webkit-scrollbar {
+    width: 0;
+}
+
+/* header + block1 */
+.block1_container{
+    height: 750px;
+    background: url(../img/Ellipse\ 1.png), url(../img/Ellipse\ 2.png), url(../img/Ellipse\ 3.png), url(../img/градиент.png);
+    background-repeat: no-repeat, no-repeat, no-repeat, repeat;
+    background-position: 80vw 20vh, 5vw 20vh, 50vw 60vh, 0vw 0vh;
+}
+/* header + block1 end */
+
+/* header */
+.header nav{
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    padding-top: 20px;
+    user-select: none;
+}
+
+.header nav a:hover {
+    color: grey;
+    transition-duration: 0.2s;
+}
+/* header end */
+
+/* block 1 */
+.block1{
+    display: flex;
+    margin-left: 210px;
+    margin-right: 210px;
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.content h1{
+    color: rgb(255, 255, 255);
+    font-family: 'Inria Serif', serif;
+    font-size: 64px;
+    line-height: normal;
+    text-shadow: 6px 0px 4px rgba(0, 255, 255, 0.15);
+}
+.content span{
+    color: #0FF;
+}
+.content h2{
+    color: #787878;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: normal;
+}
+.line{
+    height: 2px;
+    width: 190px;
+    background-color: #FFF;
+    box-shadow: 0px 0px 20px #0FF;
+}
+.card{
+    position: absolute;
+    backdrop-filter: blur(1px);
+}
+.art {
+    display: flex;
+    align-self: flex-start;
+    position: relative;
+    font-weight: bold;
+    font-size: 128px;
+    align-items: center;
+    margin-right: 200px;
+    height: 680px;
+    user-select: none;
+}
+.art img {
+    z-index: 1;
+}
+.pe1 {
+    color: #002E2E;
+}
+.pe2 {
+    color: #002E2E;
+    opacity: 50%;
+}
+.pe3 {
+    color: #002E2E;
+    opacity: 30%;
+}
+.pe4 {
+    color: #002E2E;
+    opacity: 20%;
+}
+.art nav {
+    display: flex;
+    flex-direction: column;
+    line-height: 150px;
+}
+.ec1
+/* block 1 end */
+
+/* block 2 */
+.block2_container{
+    background: url(../images/фон2.png) no-repeat center;
+}
+.block2{
+    margin-top: 200px;
+    margin-left: 210px;
+    margin-right: 210px;
+}
+.title{
+    margin-bottom: 50px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    max-height: 78px;
+}
+.title1{
+    position: relative;
+    bottom: 40px;
+    color: #0FF;
+    text-shadow: 6px 0px 4px rgba(0, 255, 255, 0.15);
+    font-family: Inria Serif;
+    font-size: 96px;
+    font-weight: 700;
+    line-height: normal;
+    opacity: 5%;
+    user-select: none;
+    white-space: nowrap;
+}
+.title1 span{
+    color: white;
+}
+.title2{
+    position: absolute;
+    color: #0FF;
+    text-shadow: 6px 0px 4px rgba(0, 255, 255, 0.15);
+    font-family: Inria Serif;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: normal;
+}
+.title2 span{
+    color: white;
+}
+.LoremAmet, .LoremAmet2{
+    display: flex;
+    gap: 100px;
+}
+.LoremAmet2{
+    flex-direction: row-reverse;
+}
+.LoremAmet1__items{
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    width: 50%;
+    gap: 20px;
+    justify-content: center;
+}
+.LoremAmet2__items{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    width: 50%;
+    gap: 20px;
+    justify-content: center;
+}
+.LoremAmet__text, .LoremAmet__text2{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.LoremAmet__text h1, .LoremAmet2__text h1{
+    font-size: 32px;
+    font-weight: 500;
+}
+.LoremAmet__text h2, .LoremAmet2__text h2{
+    color: #787878;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: normal;
+}
+.LoremAmet__button, .LoremAmet2__button{
+    color: #000;
+    font-size: 20px;
+    font-weight: 700;
+    background: #0FF;
+    width: 100px;
+    height: 40px;
+    border: none;
+}
+.LoremAmet input{
+    place-self: flex-end;
+}
+.LoremAmet2 input{
+    place-self: flex-start;
+}
+.LoremAmet img,.LoremAmet2 img{
+    width: 500px;
+    height: 250px;
+}
+.line1B2{
+    margin: 0 auto;
+    width: 3px;
+    height: 100px;
+    background: #00E0FF;
+}
+.line2B2{
+    margin: 0 auto;
+    width: 3px;
+    height: 220px;
+    background: #00E0FF;
+}
+/* block 2 end */
