@@ -17,7 +17,7 @@ a {
 /* header + block1 */
 .block1_container{
     height: 750px;
-    background: url(../img/Ellipse\ 1.png), url(../img/Ellipse\ 2.png), url(../img/Ellipse\ 3.png), url(../img/градиент.png);
+    background: url(../images/Ellipse\ 1.png), url(../images/Ellipse\ 2.png), url(../images/Ellipse\ 3.png), url(../images/bgB1.png);
     background-repeat: no-repeat, no-repeat, no-repeat, repeat;
     background-position: 80vw 20vh, 5vw 20vh, 50vw 60vh, 0vw 0vh;
 }
@@ -117,7 +117,7 @@ a {
 
 /* block 2 */
 .block2_container{
-    background: url(../images/фон2.png) no-repeat center;
+    background: url(../images/bgB2.png) no-repeat center;
 }
 .block2{
     margin-top: 200px;
