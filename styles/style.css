@@ -183,7 +183,7 @@ a {
     gap: 20px;
     justify-content: center;
 }
-.LoremAmet__text, .LoremAmet__text2{
+.LoremAmet__text, .LoremAmet2__text{
     display: flex;
     flex-direction: column;
     gap: 10px;
