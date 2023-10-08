@@ -117,12 +117,11 @@ a {
 
 /* block 2 */
 .block2_container{
-    background: url(../images/bgB2.png) no-repeat center;
-}
-.block2{
-    background: url(../images/bgB2.png) no-repeat center;
     margin-left: 210px;
     margin-right: 210px;
+}
+.block2{ 
+    background: url(../images/bgB2.png) no-repeat center;
 }
 .title{
     margin-top: 200px;
