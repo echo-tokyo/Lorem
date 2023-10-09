@@ -120,8 +120,6 @@ a {
 }
 .block2{
     margin-top: 200px;
-    margin-left: 210px;
-    margin-right: 210px;
 }
 .title{
     display: flex;
@@ -353,14 +351,33 @@ a {
         width: 250px;
         height: 400px;
     }
+    .block4{
+        gap: 50px;
+    }
 }
 @media (max-width: 1430px){
     .block3,.block5, .footer{
         margin-left: 100px;
         margin-right: 100px;
     }
+    .block1{
+        margin-left: 100px;
+        margin-right: 150px;
+    }
     .block4{
         margin-right: 100px
     }
-    
+    .block4__itemL img{
+        width: 500px;
+        height: 600px;
+    }
+}
+@media (max-width: 1270px){
+    .LoremAmet img, .LoremAmet2 img{
+        width: 400px;
+        height: 200px;
+    }
+    .block2_container{
+        background-position: top;
+    }  
 }
