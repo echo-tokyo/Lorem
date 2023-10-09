@@ -4,7 +4,7 @@ body{
     font-family: 'Inter', sans-serif;
     font-size: 20px;
     background-color: black;
-    color: white;
+    color: rgb(255, 255, 255);
 }
 a {
     text-decoration:none;
@@ -41,8 +41,8 @@ a {
 /* block 1 */
 .block1{
     display: flex;
-    margin-left: 210px;
-    margin-right: 210px;
+    margin-left: 11vw;
+    margin-right: 11vw;
     height: 100%;
     justify-content: space-between;
     align-items: center;
@@ -342,7 +342,7 @@ a {
 
 @media (max-width: 1800px){
     .art{
-        margin-right: 0px;
+        margin-right: 6vw;
     }
     .block5__items{
         height: 500px;
@@ -353,6 +353,41 @@ a {
     }
     .block4{
         gap: 50px;
+    }
+    .content h1{
+        color: rgb(255, 255, 255);
+        font-family: 'Inria Serif', serif;
+        font-size: 50px;
+        line-height: normal;
+        text-shadow: 6px 0px 4px rgba(0, 255, 255, 0.15);
+    }
+    .content span{
+        color: #0FF;
+    }
+    .content h2{
+        color: #787878;
+        font-size: 28px;
+        font-weight: 400;
+        line-height: normal;
+    }
+    .art {
+        display: flex;
+        align-self: center;
+        position: relative;
+        font-weight: bold;
+        font-size: 120px;
+        align-items: center;
+        margin-right: 10vw;
+        height: 500px;
+        user-select: none;
+    }
+    .art img {
+        height: 20vw;
+        min-height: 300px;
+    }
+    .art nav {
+        display: flex;
+        
     }
 }
 @media (max-width: 1430px){
