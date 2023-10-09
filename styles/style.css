@@ -112,43 +112,20 @@ a {
     flex-direction: column;
     line-height: 150px;
 }
-.ec1
 /* block 1 end */
 
 /* block 2 */
 .block2_container{
+    background: url(../images/bgB2.png) center no-repeat;
+}
+.block2{
+    margin-top: 200px;
     margin-left: 210px;
     margin-right: 210px;
 }
-.block2{ 
-    background: url(../images/bgB2.png) no-repeat center;
-}
 .title{
-    margin-top: 200px;
-    margin-bottom: 50px;
     display: flex;
-    align-items: center;
-    flex-direction: column;
-    max-height: 78px;
-}
-.title1{
-    position: relative;
-    bottom: 40px;
-    color: #0FF;
-    text-shadow: 6px 0px 4px rgba(0, 255, 255, 0.15);
-    font-family: Inria Serif;
-    font-size: 96px;
-    font-weight: 700;
-    line-height: normal;
-    opacity: 5%;
-    user-select: none;
-    white-space: nowrap;
-}
-.title1 span{
-    color: white;
-}
-.title2{
-    position: absolute;
+    justify-content: center;
     color: #0FF;
     text-shadow: 6px 0px 4px rgba(0, 255, 255, 0.15);
     font-family: Inria Serif;
@@ -156,7 +133,7 @@ a {
     font-weight: 700;
     line-height: normal;
 }
-.title2 span{
+.title span{
     color: white;
 }
 .LoremAmet, .LoremAmet2{
@@ -363,5 +340,27 @@ a {
     display: flex;
     gap: 50px;
 }
-
 /* footer end */
+
+@media (max-width: 1800px){
+    .art{
+        margin-right: 0px;
+    }
+    .block5__items{
+        height: 500px;
+    }
+    .b5img{
+        width: 250px;
+        height: 400px;
+    }
+}
+@media (max-width: 1430px){
+    .block3,.block5, .footer{
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+    .block4{
+        margin-right: 100px
+    }
+    
+}
