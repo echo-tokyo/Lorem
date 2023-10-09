@@ -19,7 +19,7 @@ a {
     height: 750px;
     background: url(../images/Ellipse\ 1.png), url(../images/Ellipse\ 2.png), url(../images/Ellipse\ 3.png), url(../images/bgB1.png);
     background-repeat: no-repeat, no-repeat, no-repeat, repeat;
-    background-position: 80vw 20vh, 5vw 20vh, 50vw 60vh, 0vw 0vh;
+    background-position: 80vw 200px, 5vw 190px, 50vw 600px, 0vw 0vh;
 }
 /* header + block1 end */
 
@@ -295,6 +295,7 @@ a {
     margin-top: 150px;
     justify-content: space-between;
     height: 660px;
+    flex-wrap: wrap;
 }
 .block5__item1, .block5__item2, .block5__item3, .block5__item4{
     display: flex;
@@ -377,7 +378,7 @@ a {
         font-weight: bold;
         font-size: 120px;
         align-items: center;
-        margin-right: 10vw;
+        margin-right: 7vw;
         height: 500px;
         user-select: none;
     }
@@ -387,20 +388,24 @@ a {
     }
     .art nav {
         display: flex;
-        
+        line-height: 130px;
+    }
+    .block1{
+        display: flex;
+        margin-left: 7vw;
+        margin-right: 7vw;
+        height: 100%;
+        justify-content: space-between;
+        align-items: center;
     }
 }
 @media (max-width: 1430px){
     .block3,.block5, .footer{
-        margin-left: 100px;
-        margin-right: 100px;
-    }
-    .block1{
-        margin-left: 100px;
-        margin-right: 150px;
+        margin-left: 5vw;
+        margin-right: 5vw;
     }
     .block4{
-        margin-right: 100px
+        margin-right: 5vw;
     }
     .block4__itemL img{
         width: 500px;
@@ -412,7 +417,53 @@ a {
         width: 400px;
         height: 200px;
     }
+    .art {
+        display: flex;
+        align-self: center;
+        position: relative;
+        font-weight: bold;
+        font-size: 120px;
+        align-items: center;
+        margin-right: 3vw;
+        height: 500px;
+        user-select: none;
+    }
+    .block1{
+        display: flex;
+        margin-left: 5vw;
+        margin-right: 3vw;
+        height: 100%;
+        justify-content: space-between;
+        align-items: center;
+    }
     .block2_container{
         background-position: top;
     }  
+}
+@media (max-width: 1090px) {
+    .block5__items{
+        display: flex;
+        margin-top: 100px;
+        justify-content: space-around;
+        height: 1200px;
+        flex-wrap: wrap;
+    }
+    .block5__item1, .block5__item2, .block5__item3, .block5__item4{
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+    }
+    .block5__item2, .block5__item4{
+        flex-direction: column;
+        justify-content: flex-end;
+    }
+    .block5__item1 p{
+        padding-left: 20px;
+    }
+    .block5__item2{
+        padding-bottom: 20px;
+    }
+    .block5__item3{
+        padding-top: 20px;
+    }
 }
