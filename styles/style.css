@@ -428,4 +428,49 @@ a {
         justify-content: space-around;
         height:auto;
     }
+    .block4__itemR{
+        text-align: center;
+        align-items: center;
+    }
+    .LoremAmet, .LoremAmet2{
+        flex-direction: column;
+        text-align: center;
+        gap: 20px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    .LoremAmet1__items, .LoremAmet2__items{
+        text-align: center;
+        width: 100%;
+    }
+    .LoremAmet input, .LoremAmet2 input{
+        place-self: center;
+    }
+}
+@media (max-width: 800px){
+    .block1{
+        flex-direction: column;
+    }
+    .content{
+        margin-top: 100px;
+        text-align: center;
+        align-items: center;
+    }
+    .art{
+        margin: 0 auto;
+    }
+    nav .art{
+        
+    }
+    .block4{
+        flex-direction: column;
+        margin-right: 0;
+        gap: 0;
+    }
+    .block4__itemL img{
+        width: 100%;
+    }
+    .block4__itemR{
+        height: 400px;
+    }
 }
