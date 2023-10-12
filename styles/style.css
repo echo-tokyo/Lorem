@@ -156,6 +156,7 @@ a {
 /* block 2 */
 .block2_container{
     background: url(../images/bgB2.png) center no-repeat;
+    background-attachment: fixed;
 }
 .block2{
     margin-top: 200px;
@@ -227,9 +228,16 @@ a {
 .LoremAmet2 input{
     place-self: flex-start;
 }
-.LoremAmet img,.LoremAmet2 img{
+.LoremAmet img, .LoremAmet2 img{
     width: 500px;
     height: 250px;
+    transform: translate(0px,120%);
+    opacity: 0;
+    transition: all 0.8s ease 0s;
+}
+.LoremAmet img._active,.LoremAmet2 img._active{
+    transform: translate(0px,0px);
+    opacity: 1;
 }
 .line1B2{
     margin: 0 auto;
@@ -300,6 +308,10 @@ a {
     display: flex;
     flex-direction: column;
     justify-content: center;
+}
+.block4__itemR-wrapper{
+    display: flex;
+    flex-direction: column;
     gap: 10px;
 }
 .block4__itemR span{
@@ -467,7 +479,7 @@ a {
         justify-content: space-around;
         height:auto;
     }
-    .block4__itemR{
+    .block4__itemR-wrapper{
         text-align: center;
         align-items: center;
     }
