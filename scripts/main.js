@@ -14,7 +14,7 @@ mySlider.mount()
 const animItems = document.querySelectorAll('._anim-items');
 if(animItems.length > 0) {
     window.addEventListener('scroll', animOnScroll);
-    function animOnScroll(params) {
+    function animOnScroll() {
         for (let index = 0; index < animItems.length; index++) {
             const animItem = animItems[index]; // каждый элемент animItem получает каждый элемент массива
             const animItemHeight = animItem.offsetHeight; // высота объекта
