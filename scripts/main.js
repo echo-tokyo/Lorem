@@ -1,10 +1,16 @@
 const mySlider = new Splide('#mySlider', {
     perPage: 4,
     gap: '10px',
-    pagination: false,
+    rewind: true,
     breakpoints: {
         1900: {
             perPage: 3,
+        },
+        980: {
+            perPage: 2,
+        },
+        630: {
+            perPage: 1,
         }
     }
 }) 
