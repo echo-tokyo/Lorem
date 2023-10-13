@@ -42,7 +42,7 @@ a {
 }
 
 .header nav a:hover {
-    color: grey;
+    color:#0FF;
     transition-duration: 0.2s;
 }
 /* header end */
@@ -112,10 +112,14 @@ a {
     transform: translate(0px,120%);
     opacity: 0;
     transition: all 0.8s ease 0s;
+    transition: transform 0.3s;
 }
 .card._active{
     transform: translate(0px,0px);
     opacity: 1;
+}
+.card:hover{
+    transform: scale(1.1);
 }
 .art {
     display: flex;
@@ -228,12 +232,29 @@ a {
 .LoremAmet2 input{
     place-self: flex-start;
 }
+.LoremAmet input:hover, .LoremAmet2 input:hover{
+    background-color:rgb(0, 102, 102);
+    color: #FFF;
+    transition-duration: 0.2s;
+}
+.LoremAmet input:active, .LoremAmet2 input:active{
+    background-color:rgb(255, 255, 255);
+    color: #000000;
+    transition-duration: 0s;
+}
 .LoremAmet img, .LoremAmet2 img{
     width: 500px;
     height: 250px;
     transform: translate(0px,120%);
     opacity: 0;
     transition: all 0.8s ease 0s;
+    /* transform: scale(1.1); */
+}
+.LoremAmet__img, .LoremAmet2__img{
+    transition: transform 0.3s;
+}
+.LoremAmet__img:hover, .LoremAmet2__img:hover{
+    transform: scale(1.1);
 }
 .LoremAmet img._active,.LoremAmet2 img._active{
     transform: translate(0px,0px);
@@ -329,6 +350,16 @@ a {
     line-height: normal;
     border: none;
 }
+.block4__itemR input:hover{
+    background-color:rgb(0, 102, 102);
+    color: #FFF;
+    transition-duration: 0.2s;
+}
+.block4__itemR input:active{
+    background-color:rgb(255, 255, 255);
+    color: #000000;
+    transition-duration: 0s;
+}
 /* block4 end */
 
 /* block5 */
@@ -365,6 +396,12 @@ a {
 }
 .block5__item3{
     padding-top: 20px;
+}
+.block5__item1, .block5__item2, .block5__item3, .block5__item4{
+    transition: transform 0.3s;
+}
+.block5__item1:hover, .block5__item2:hover, .block5__item3:hover, .block5__item4:hover{
+    transform: scale(1.1);
 }
 /* block 5 end */
 
