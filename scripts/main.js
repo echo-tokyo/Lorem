@@ -11,6 +11,7 @@ const mySlider = new Splide('#mySlider', {
         },
         630: {
             perPage: 1,
+            arrows: false,
         }
     }
 }) 
