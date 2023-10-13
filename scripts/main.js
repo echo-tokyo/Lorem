@@ -2,6 +2,7 @@ const mySlider = new Splide('#mySlider', {
     perPage: 4,
     gap: '10px',
     rewind: true,
+    rewindByDrag: true,
     breakpoints: {
         1900: {
             perPage: 3,
