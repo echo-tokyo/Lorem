@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inria+Serif:wght@700&family=Inter:wght@400;700&display=swap');
-
+/* *{
+    outline: 1px solid lightblue;
+} */
 body{
     font-family: 'Inter', sans-serif;
     font-size: 20px;
@@ -512,9 +514,18 @@ a {
 }
 @media (max-width: 1110px) {
     .block5__items{
-        flex-wrap: wrap;
-        justify-content: space-around;
-        height:auto;
+        height: 380px;
+    }
+    .block5__item1 p{
+        padding-left: 12px;
+    }
+    .block5__items img{
+        width: 180px;
+        height: 280px;
+    }
+    .block5__item1 img, .block5__item4 img{
+        width: 192px;
+        height: 292px;
     }
     .block4__itemR-wrapper{
         text-align: center;
@@ -544,7 +555,14 @@ a {
         text-align: center;
         align-items: center;
     }
+    .block1 nav{
+        display: none;
+    }
     .art{
+        width: 397.42px;
+        margin: 0 auto;
+    }
+    .art img{
         margin: 0 auto;
     }
     .block4{
@@ -557,5 +575,165 @@ a {
     }
     .block4__itemR{
         height: 400px;
+    }
+    .block5__items{
+        height: auto;
+        flex-wrap: wrap;
+    }
+    .block5__items{
+        height: 350px;
+    }
+    .block5__items img{
+        width: 150px;
+        height: 250px;
+    }
+    .block5__item1 img, .block5__item4 img{
+        width: 162px;
+        height: 262px;
+    }
+}
+@media(max-width: 663px){
+    .block5__items{
+        height: 700px;
+    }
+    .block5__item4{
+        margin: 0 auto;
+        padding-left: 22px;
+    }
+}
+@media (max-width: 500px){
+    /* шрифты */
+    .block1 h1, .title h1, .block3 h1, .block4 h1, .block5 h1{
+        font-size: 32px;
+    }
+    .block1 h2, .LoremAmet h1, .LoremAmet2 h1{
+        font-size: 16px;
+    }
+    .header, .LoremAmet h2, .LoremAmet2 h2, .block3 h2, .block4 h2, .block5 h2, .block5 p, .footer{
+        font-size: 14px;
+    }
+    /* отступы между блоками */
+    .block3{
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    .block4{
+        margin-bottom: 50px;
+    }
+    .block5{
+        margin-bottom: 50px;
+    }
+    /* блок 1 */
+    .header nav{
+        gap: 20px;
+        padding-top: 40px;
+    }
+    .art img{
+        width: 250px;
+    }
+    .art{
+        width: 250px;
+        margin: 0 auto;
+    }
+    /* блок 2 */
+    .block2{
+        margin-top: 50px;
+    }
+    .LoremAmet, .LoremAmet2{
+        flex-direction: column-reverse;
+    }
+    .LoremAmet1__items{
+        text-align: start;
+    }
+    .LoremAmet2__items{
+        text-align: end;
+    }
+    .LoremAmet img, .LoremAmet2 img{
+        width: 270px;
+        height: 150px;
+    }
+    .LoremAmet__button, .LoremAmet2__button{
+        font-size: 16px;
+        width: 80px;
+        height: 40px;
+    }
+    .LoremAmet input{
+        place-self: flex-start;
+    }
+    .LoremAmet2 input{
+        place-self: flex-end;
+    }
+    .line1B2{
+        height: 50px;
+    }
+    .line2B2{
+        height: 80px;
+    }
+    /* блок 3 */
+    .block3__header{
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    .splide__slide img{
+        height: 280px;
+        width: 200px;
+    }
+    /* блок 4 */
+    .block4__itemL img{
+        height: 250px;
+    }
+    .block4__itemR{
+        height: 310px;
+    }
+    /* блок 5 */
+    .block5__items{
+        height: 850px;
+        margin-top: 50px;
+    }
+    .block5__item1, .block5__item2, .block5__item3, .block5__item4{
+        gap: 10px;
+    }
+    .block5__item2{
+        padding-right: 12px;
+        padding-bottom: 0px;
+        text-align: end;
+    }
+    .block5__item3{
+        padding-top: 0px;
+        padding-left: 12px;
+    }
+    .block5__item4{
+        margin: 0;
+        padding-left: 0;
+    }
+    .block5__item4 p{
+        text-align: end;
+        padding-right: 12px;
+    }
+    /* футер */
+    .footer__container{
+        height: 100px;
+    }
+    .footer__socity img{
+        width: 20px;
+        height: 20px;
+    }
+    .footer__socity{
+        gap: 10px;
+    }
+}
+@media (max-width: 344px){
+    .block5__items{
+        height: auto;
+        justify-content: center;
+    }
+    .block5__item1{
+        padding-right: 12px;
+    }
+    .block5__item2, .block5__item3{
+        padding: 0;
+    }
+    .block5__item4{
+        padding-left: 12px;
     }
 }
