@@ -618,7 +618,7 @@ a {
     /* шрифты */
     .block1_container{
         background-size: 50px 50px, 60px 60px, 70px 70px, 100% 100%;
-        background-position: 5vw 50vh, 80vw 8vh, 65vw 70vh, 0 ;
+        background-position: 8vw 400px, 80vw 90px, 60vw 600px, 0;
     }
 
     .block1 h1, .title h1, .block3 h1, .block4 h1, .block5 h1{
