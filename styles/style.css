@@ -668,6 +668,26 @@ a {
         width: 80px;
         height: 40px;
     }
+    .LoremAmet input:hover, .LoremAmet2 input:hover{
+        color: #000;
+        background: #0FF;
+        border: none;
+    }
+    .block2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .LoremAmet, .LoremAmet2 {
+        width: 270px;
+    }
+
+    .LoremAmet1__items {
+        display: flex;
+        justify-content: end;
+
+    }
     .LoremAmet input{
         place-self: flex-start;
     }
@@ -734,6 +754,28 @@ a {
     }
 }
 @media (max-width: 344px){
+    .LoremAmet input:hover, .LoremAmet2 input:hover{
+        color: #000;
+        background: #0FF;
+        border: none;
+    }
+    .block2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .LoremAmet, .LoremAmet2 {
+        width: 270px;
+    }
+
+    .LoremAmet1__items {
+        display: flex;
+        justify-content: end;
+
+    }
+
+    .LoremAmet1__items
     /* .block5__items{
         height: auto;
         justify-content: center;
