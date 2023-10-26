@@ -563,16 +563,6 @@ a {
 }
 @media (max-width: 500px){
     /* шрифты */
-    .block1_container{
-        background-size: 50px 50px, 60px 60px, 70px 70px, 100% 100%;
-        background-position: 8vw 400px, 80vw 90px, 60vw 600px, 0;
-    }
-
-    .block1 {
-        justify-content: flex-start;
-        height: 690px;
-    }
-
     .block1 h1, .title h1, .block3 h1, .block4 h1, .block5 h1{
         font-size: 32px;
     }
@@ -598,13 +588,20 @@ a {
         gap: 40px;
         padding-top: 40px;
     }
+    .block1_container{
+        background-size: 50px 50px, 60px 60px, 70px 70px, 100% 100%;
+        background-position: 8vw 400px, 80vw 90px, 60vw 600px, 0;
+    }
+    .block1 {
+        justify-content: flex-start;
+        height: 690px;
+    }
     .art img{
         position: static;
         width: 80vw;
         height: 60vw;
         max-width: 500px;
         min-height: 200px;
-
     }
     .art{
         display: flex;
@@ -634,11 +631,10 @@ a {
         font-size: 16px;
         width: 80px;
         height: 40px;
+        border-radius: 0px;
     }
     .LoremAmet input:hover, .LoremAmet2 input:hover{
-        color: #000;
-        background: #0FF;
-        border: none;
+        pointer-events: none;
     }
     .block2 {
         display: flex;
@@ -678,6 +674,12 @@ a {
     /* блок 4 */
     .block4__itemL img{
         height: 250px;
+    }
+    .block4__itemR input{
+       border-radius: 0px;
+    }
+    .block4__itemR input:hover{
+        pointer-events: none;
     }
     .block4__itemR{
         height: 310px;
