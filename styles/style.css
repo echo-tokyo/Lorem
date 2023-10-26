@@ -685,7 +685,6 @@ a {
 
     .LoremAmet1__items {
         display: flex;
-        justify-content: end;
 
     }
     .LoremAmet input{
