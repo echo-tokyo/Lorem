@@ -2,7 +2,7 @@
 /* *{
     outline: 1px solid lightblue;
 } */
-body{
+html, body{
     font-family: 'Inter', sans-serif;
     font-size: 20px;
     background-color: black;
@@ -25,6 +25,7 @@ a {
     opacity: 1;
     transform: translate(0px, 0px);
 }
+
 /* header + block1 */
 .block1_container{
     height: 750px;
@@ -774,41 +775,10 @@ a {
     .LoremAmet, .LoremAmet2 {
         width: 270px;
     }
-
     .LoremAmet1__items {
         display: flex;
         justify-content: end;
-
     }
-
-    .LoremAmet1__items
-    /* .block5__items{
-        height: auto;
-        justify-content: center;
-    }
-    .block5__item3{
-        padding-left: 10px;
-    }
-    .block5__item2{
-        padding-right: 0;
-    }
-    .block5__item4{
-        padding-left: 12px;
-    }
-    .block5__items{
-        height: 600px;
-    }
-    .block5__item1 p{
-        padding-left: 12px;
-    }
-    .block5__items img{
-        width: 130px;
-        height: 230px;
-    }
-    .block5__item1 img, .block5__item4 img{
-        width: 142px;
-        height: 242px;
-    } */
     .block5__items{
         height: 600px;
     }
