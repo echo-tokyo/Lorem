@@ -292,6 +292,13 @@ a {
 }
 .splide__slide{
     text-align: center;
+    transform: translate(0px,120%);
+    opacity: 0;
+    transition: all 0.8s ease 0s;
+}
+.splide__slide._active{
+    transform: translate(0px,0px);
+    opacity: 1;
 }
 .splide__slide img{
     min-height: 100%;
