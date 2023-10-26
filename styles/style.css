@@ -608,6 +608,11 @@ a {
         background-position: 8vw 400px, 80vw 90px, 60vw 600px, 0;
     }
 
+    .block1 {
+        justify-content: flex-start;
+        height: 690px;
+    }
+
     .block1 h1, .title h1, .block3 h1, .block4 h1, .block5 h1{
         font-size: 32px;
     }
@@ -639,12 +644,14 @@ a {
         height: 60vw;
         max-width: 500px;
         min-height: 200px;
+
     }
     .art{
         display: flex;
         justify-content: center;
         width: 250px;
         margin: 0 auto;
+        height: 350px;
     }
     /* блок 2 */
     .block2{
