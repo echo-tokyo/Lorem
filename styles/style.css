@@ -15,16 +15,6 @@ a {
 ::-webkit-scrollbar {
     width: 0;
 }
-._anim-show{
-    transform: translate(0px, 120%);
-    opacity: 0;
-    transition: all 0.8s ease 0s;
-}
-._anim-show._active, 
-._active ._anim-show {
-    opacity: 1;
-    transform: translate(0px, 0px);
-}
 
 /* header + block1 */
 .block1_container{
@@ -70,13 +60,7 @@ a {
     font-size: 64px;
     line-height: normal;
     text-shadow: 6px 0px 4px rgba(0, 255, 255, 0.15);
-    transform: translate(0px,120%);
-    opacity: 0;
     transition: all 0.8s ease 0s;
-}
-.content h1._active{
-    transform: translate(0px,0px);
-    opacity: 1;
 }
 .content span{
     color: #0FF;
@@ -86,14 +70,7 @@ a {
     font-size: 32px;
     font-weight: 400;
     line-height: normal;
-    transform: translate(0px,120%);
-    opacity: 0;
     transition: all 0.8s ease 0s;
-}
-.content h2._active{
-    transform: translate(0px,0px);
-    opacity: 1;
-    transition: all 0.8s ease 0.4s;
 }
 .line{
     height: 2px;
@@ -105,21 +82,11 @@ a {
     opacity: 0;
     transition: all 0.8s ease 0s;
 }
-.lineb1._active{
-    opacity: 1;
-    transition: all 0.8s ease 0.4s;
-}
 .card{
     position: absolute;
     backdrop-filter: blur(1px);
-    transform: translate(0px,120%);
-    opacity: 0;
     transition: all 0.8s ease 0s;
     transition: transform 0.3s;
-}
-.card._active{
-    transform: translate(0px,0px);
-    opacity: 1;
 }
 .card:hover{
     transform: scale(1.1);
@@ -248,20 +215,12 @@ a {
 .LoremAmet img, .LoremAmet2 img{
     width: 500px;
     height: 250px;
-    transform: translate(0px,120%);
-    opacity: 0;
-    transition: all 0.8s ease 0s;
-    /* transform: scale(1.1); */
 }
 .LoremAmet__img, .LoremAmet2__img{
     transition: transform 0.3s;
 }
 .LoremAmet__img:hover, .LoremAmet2__img:hover{
     transform: scale(1.1);
-}
-.LoremAmet img._active,.LoremAmet2 img._active{
-    transform: translate(0px,0px);
-    opacity: 1;
 }
 .line1B2{
     margin: 0 auto;
