@@ -232,6 +232,13 @@ a {
 }
 .LoremAmet__img, .LoremAmet2__img{
     transition: transform 0.3s;
+    transform: translate(0px,120%);
+    opacity: 0;
+    transition: all 0.8s ease 0s;
+}
+.LoremAmet__img._active,.LoremAmet2__img._active{
+    transform: translate(0px,0px);
+    opacity: 1;
 }
 .LoremAmet__img:hover, .LoremAmet2__img:hover{
     transform: scale(1.1);
