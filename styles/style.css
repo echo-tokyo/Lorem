@@ -389,7 +389,15 @@ a {
 }
 .block5__item1, .block5__item2, .block5__item3, .block5__item4{
     transition: transform 0.3s;
+    /* position: relative;
+    transform: translate(120px,0%);
+    opacity: 0;
+    transition: all 0.8s ease 0s; */
 }
+/* .block5__item1._active, .block5__item2._active, .block5__item3._active, .block5__item4._active{
+    transform: translate(0px,0px);
+    opacity: 1;
+} */
 .block5__item1:hover, .block5__item2:hover, .block5__item3:hover, .block5__item4:hover{
     transform: scale(1.1);
 }
@@ -646,12 +654,14 @@ a {
         justify-content: center;
         align-items: center;
     }
-    .LoremAmet__img{
+    /* .LoremAmet__img{
+        position: relative;
         transform: translate(120px,0%);
     }
     .LoremAmet2__img{
+        position: relative;
         transform: translate(-120px,0%);
-    }
+    } */
     .LoremAmet, .LoremAmet2{
         flex-direction: column-reverse;
     }
