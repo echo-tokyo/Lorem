@@ -641,6 +641,16 @@ a {
     /* блок 2 */
     .block2{
         margin-top: 50px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .LoremAmet__img{
+        transform: translate(120px,0%);
+    }
+    .LoremAmet2__img{
+        transform: translate(-120px,0%);
     }
     .LoremAmet, .LoremAmet2{
         flex-direction: column-reverse;
@@ -664,19 +674,11 @@ a {
     .LoremAmet input:hover, .LoremAmet2 input:hover{
         pointer-events: none;
     }
-    .block2 {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
     .LoremAmet, .LoremAmet2 {
         width: 270px;
     }
-
     .LoremAmet1__items {
         display: flex;
-
     }
     .LoremAmet input{
         place-self: flex-start;
