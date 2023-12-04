@@ -1,1 +1,1 @@
-https://kernelacw.github.io/Lorem/
+https://echo-tokyo.github.io/Lorem/
