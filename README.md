@@ -1,1 +1,2 @@
-https://echo-tokyo.github.io/Lorem/
+# Статус:
+Завершен
